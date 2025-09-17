@@ -71,3 +71,15 @@ Expensive products have been written to expensive_products.csv
 - Learned how to make code **robust** and **error-resistant**.
 - Handled invalid inputs without crashing the program.
 - Gained confidence in working with **custom exceptions** and multiple catch blocks.
+
+---
+
+## ▶️ How to Run
+1. Place products.csv in the Task_5 folder (outside src/).
+2. Compile and run the program:
+   ```bash
+   javac src/Task5/ProductFilterWithExceptions.java
+         src/Task5/InvalidProductDataException.java
+   java -cp src Task5.ProductFilterWithExceptions
+   ```
+
